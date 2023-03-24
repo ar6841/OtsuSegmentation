@@ -112,7 +112,7 @@ disp(['Threshold values = ',num2str(thresholds)]);
 %Display image
 gray_Img = uint8(gray_Img);
 %Save image as "image name" +".bmp"
-imwrite(gray_Img,append('OutputImages\',image_name,"-out.bmp"));
+imwrite(gray_Img,append('O',image_name,"-out.bmp"));
 
 %Display Output image
 f1=figure;
