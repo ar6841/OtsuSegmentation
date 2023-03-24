@@ -1,6 +1,11 @@
 # OtsuSegmentation
 An algorithm to highlight the different regions in an image. 
 
+## Dependencies
+
+1. MATLAB Parallel Processing Toolbox, depeding on your systems bounds the default profile for the parallel pool can be 'Threads' or 'Processes'
+2. Image Processing Toolbox for 'imwrite' and 'imread'
+
 ## Usage
 
 1. To run the program, add folder containing “Segmentation_code.m” and the image files into the MATLAB path.
