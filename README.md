@@ -1,5 +1,5 @@
 # OtsuSegmentation
-An algorithm to highlight the different regions in an image. 
+An algorithm to highlight the different regions in an image using an extended version of Otsu's statistical thresholding. The different regions in an image are grouped into a greyscale value, depending on how many regions were found, the output shows the number of regions and corresponding greyscale value of each region.
 
 ## Dependencies
 
