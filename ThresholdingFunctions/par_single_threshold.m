@@ -10,6 +10,7 @@ function [S,t_min]=par_single_threshold(H,N)
 
 
     S_vec = zeros(255,1);
+    S_vec(:) = inf;
 
     %Loop runs from 0 to 254 as t=255 will result in one region <=t only
     parfor t=0:254

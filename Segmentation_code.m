@@ -121,13 +121,16 @@ title("Grayscale image after Thresholding")
 
 %Plot Histogram
 f2=figure;
-plot(H)
+plot(H, 'DisplayName', 'Histogram')
 title("Image histogram plot")
 xlabel("Grayscale value")
 ylabel("Number of pixels")
 
-%Make Vertical lines at thresholds
-xline(thresholds)
+%Make Vertical lines at threshold
+for count = 1:length(thresholds)
+    xline(thresholds(count), 'LineWidth', 1, 'DisplayName', sprintf('Threshold %d', count));
+end
+legend;
 
 % Display greyscale image BEFORE Otsus thresholding
 f3=figure;
