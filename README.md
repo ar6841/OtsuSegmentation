@@ -2,7 +2,9 @@
 An algorithm to highlight the different regions in an image using an extended version of Otsu's statistical thresholding. The different regions in an image are grouped into a greyscale value, depending on how many regions were found, the output shows the number of regions and corresponding greyscale value of each region.
 
 ### Explanation
-The underlying logic is to find threshold(s) that splits the image into some groups and minimizes the weighted sum of within group variances.
+The underlying logic is to create a histogram of the greyscale values in the image and find threshold(s) in this histogram that splits the image into some groups and minimizes the weighted sum of within group variances.
+
+![image](https://user-images.githubusercontent.com/96152967/229216223-3687d8a9-11d0-409c-b23c-56668815ab02.png)
 
 ## Dependencies
 
