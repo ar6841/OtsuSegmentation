@@ -4,7 +4,7 @@ An algorithm to highlight the different regions in an image using an extended ve
 ### Explanation
 The underlying logic is to create a histogram of the greyscale values in the image and find threshold(s) in this histogram that splits the image into some groups and minimizes the weighted sum of within group variances.
 
-![image](https://user-images.githubusercontent.com/96152967/229216223-3687d8a9-11d0-409c-b23c-56668815ab02.png)
+<img src='https://user-images.githubusercontent.com/96152967/229216223-3687d8a9-11d0-409c-b23c-56668815ab02.png' width="420">
 
 ## Dependencies
 
