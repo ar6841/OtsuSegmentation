@@ -8,7 +8,7 @@ The underlying logic is to create a histogram of the greyscale values in the ima
 
 ## Dependencies
 
-1. MATLAB Parallel Processing Toolbox, depeding on your systems bounds the default profile for the parallel pool can be 'Threads' or 'Processes'
+1. MATLAB Parallel Computing Toolbox, depeding on your systems bounds the default profile for the parallel pool can be 'Threads' or 'Processes'
 2. Image Processing Toolbox for 'imwrite' and 'imread'
 
 ## Usage
